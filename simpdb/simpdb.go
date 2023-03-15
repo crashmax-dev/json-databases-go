@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"jsondb-go/util"
 
 	"github.com/rprtr258/simpdb"
 )
@@ -16,22 +17,22 @@ func (e Emote) ID() string {
 }
 
 func (Emote) TableName() string {
-	return "emotes"
+	return "emotes.json"
 }
 
 func main() {
-	db := simpdb.New("db")
+	db := simpdb.New("db/simpdb")
 	emotes := simpdb.GetTable[Emote](db)
 
-	_, err := emotes.GetAll()
+	emote := Emote{
+		Name: util.RandomString(10),
+		Link: "https://cdn.7tv.app/emote/60a95f109d598ea72fad13bd/4x.webp",
+	}
+
+	err := emotes.Insert(emote)
 	if err != nil {
 		fmt.Println(err)
 	}
-
-	err = emotes.Insert(Emote{
-		Name: "Madge",
-		Link: "https://cdn.7tv.app/emote/60a95f109d598ea72fad13bd/4x.webp",
-	})
 
 	if err != nil {
 		fmt.Println(err)
