@@ -8,6 +8,7 @@ require (
 )
 
 require (
+	github.com/FantasyGao/jsondb v0.0.0-20200719135335-245a65787f37 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/gofiber/fiber/v2 v2.42.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
