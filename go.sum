@@ -25,6 +25,8 @@ github.com/rprtr258/simpdb v0.1.1 h1:fduqX7MGTv06CqlpyKyoDh4rGPlgDPgenhl3bNVP1Nw
 github.com/rprtr258/simpdb v0.1.1/go.mod h1:a0PlEA8jOTKL4WhSxE5b9hAVV2pW0H10/btHrM5J4Uw=
 github.com/rprtr258/simpdb v0.1.2 h1:O/ocDXYTnMkOmDoEg2HwHjl8u+VGhYERAx6idZI389Q=
 github.com/rprtr258/simpdb v0.1.2/go.mod h1:a0PlEA8jOTKL4WhSxE5b9hAVV2pW0H10/btHrM5J4Uw=
+github.com/rprtr258/simpdb v0.3.0 h1:f/m9tbhFEUYTQJKE2NMk2q/uraJUhtZLSAal4Qy0xy4=
+github.com/rprtr258/simpdb v0.3.0/go.mod h1:a0PlEA8jOTKL4WhSxE5b9hAVV2pW0H10/btHrM5J4Uw=
 github.com/savsgio/dictpool v0.0.0-20221023140959-7bf2e61cea94 h1:rmMl4fXJhKMNWl+K+r/fq4FbbKI+Ia2m9hYBLm2h4G4=
 github.com/savsgio/dictpool v0.0.0-20221023140959-7bf2e61cea94/go.mod h1:90zrgN3D/WJsDd1iXHT96alCoN2KJo6/4x1DZC3wZs8=
 github.com/savsgio/gotils v0.0.0-20220530130905-52f3993e8d6d h1:Q+gqLBOPkFGHyCJxXMRqtUgUbTjI8/Ze8vu8GGyNFwo=
