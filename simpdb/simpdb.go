@@ -26,10 +26,12 @@ func main() {
 	}
 	defer emotes.Close()
 
-	emote := Emote{
-		Name: util.RandomString(10),
-		Link: "https://cdn.7tv.app/emote/60a95f109d598ea72fad13bd/4x.webp",
-	}
+	if emotes.List().Count() == 0 {
+		emote := Emote{
+			Name: util.RandomString(10),
+			Link: "https://cdn.7tv.app/emote/60a95f109d598ea72fad13bd/4x.webp",
+		}
 
-	emotes.Upsert(emote)
+		emotes.Upsert(emote)
+	}
 }
